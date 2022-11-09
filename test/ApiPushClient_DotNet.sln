@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPushClient", "ApiPushClient\ApiPushClient.csproj", "{AA07A89A-22EF-44D4-9D55-7D8FFA72149C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA07A89A-22EF-44D4-9D55-7D8FFA72149C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA07A89A-22EF-44D4-9D55-7D8FFA72149C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA07A89A-22EF-44D4-9D55-7D8FFA72149C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA07A89A-22EF-44D4-9D55-7D8FFA72149C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36918A62-19ED-4490-9459-1E2D32B08747}
+	EndGlobalSection
+EndGlobal

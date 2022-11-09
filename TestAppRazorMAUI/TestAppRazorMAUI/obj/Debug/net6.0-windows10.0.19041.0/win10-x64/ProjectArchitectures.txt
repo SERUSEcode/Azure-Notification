@@ -1,0 +1,1 @@
+C:\Repo\Praktik\TestAppRazorMAUI\TestAppRazorMAUI\TestAppRazorMAUI.csproj;x64
