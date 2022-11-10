@@ -8,14 +8,16 @@ namespace TestAppRazorMAUI.Data
 {
     public class FetchSituations
     {
-        private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
+		private Rootobject result;
+		private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
         private static string authenticationkey = "15c39950faf747ea86962f09867e2114";
 
         public Rootobject FetchAllSituations()
         {
             string requestquery = CreateRequestQuery(authenticationkey);
             string responsestring = SendRequest(apiurl, requestquery);
-            var result = JsonConvert.DeserializeObject<Rootobject>(responsestring);
+			
+			var result = JsonConvert.DeserializeObject<Rootobject>(responsestring);
 
             
             return result;
@@ -40,15 +42,17 @@ namespace TestAppRazorMAUI.Data
 
         private string CreateRequestQuery(string authenticationkey)
         {
+            //if (result == null) { }
             var request = "<REQUEST>" +
                               $"<LOGIN authenticationkey = \"{authenticationkey}\" />" +
-                               "<QUERY objecttype = \"Situation\" schemaversion = \"1.2\" >" +
+							   "<QUERY objecttype = \"Situation\" schemaversion = \"1.2\" orderby = \"Deviation.CreationTime desc\">" +
                                     "<INCLUDE> Deviation.Header </INCLUDE>" +
                                     "<INCLUDE> Deviation.IconId </INCLUDE>" +
                                     "<INCLUDE> Deviation.Message </INCLUDE>" +
                                     "<INCLUDE> Deviation.MessageCode </INCLUDE>" +
                                     "<INCLUDE> Deviation.MessageType </INCLUDE>" +
-                              "</QUERY> " +
+									"<INCLUDE> Deviation.CreationTime </INCLUDE>" +
+							  "</QUERY> " +
                         "</REQUEST> ";
             return request;
         }

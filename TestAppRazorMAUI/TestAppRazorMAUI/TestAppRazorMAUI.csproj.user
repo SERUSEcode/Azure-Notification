@@ -3,8 +3,11 @@
   <PropertyGroup>
     <ActiveDebugFramework>net6.0-ios</ActiveDebugFramework>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugProfile>Local Device</ActiveDebugProfile>
+    <ActiveDebugProfile>kevins iPhone</ActiveDebugProfile>
     <SelectedPlatformGroup>LocalDevice</SelectedPlatformGroup>
+    <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
+    <DeveloperId>46QL34U57L</DeveloperId>
+    <DevelopmentTeamId>46QL34U57L</DevelopmentTeamId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
     <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>

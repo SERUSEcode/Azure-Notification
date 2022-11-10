@@ -1,8 +1,45 @@
-﻿@page "/"
+﻿@using Newtonsoft.Json
+@using TestAppRazorMAUI.Data
+@inject FetchSituations FetchAllSituations
 
-<h1>Hello, world!</h1>
+@page "/"
 
-Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@if (result?.RESPONSE?.RESULT?[0].Situation?.Length > 0)
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Meddelande</th>
+				<th>Header</th>
+				<th>Type</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var situation in result.RESPONSE.RESULT[0].Situation)
+			{
+				<tr>
+					<td>@situation.Deviation[0].IconId</td>
+					<td>@situation.Deviation[0].Message</td>
+					<td>@situation.Deviation[0].Header</td>
+					<td>@situation.Deviation[0].MessageCode</td>
+					<td>@situation.Deviation[0].CreationTime</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+else
+{
+	<p>Inga situationer hittades</p>
+}
 
+@code {
+	private Rootobject result;
+
+	protected override async Task OnInitializedAsync()
+	{
+		result = FetchAllSituations.FetchAllSituations();
+	}
+}

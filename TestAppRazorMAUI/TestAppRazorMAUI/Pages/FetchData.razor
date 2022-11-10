@@ -2,17 +2,16 @@
 
 @using Newtonsoft.Json
 @using TestAppRazorMAUI.Data
-@inject WeatherForecastService ForecastService
 @inject FetchSituations FetchAllSituations
 @*FetchAllSituations FetchSituations*@
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from a service.</p>
-<p>@result.RESPONSE.RESULT[0].Situation[0].Deviation[0].Header</p>
+@*<p>@result.RESPONSE.RESULT[0].Situation[0].Deviation[0].Header</p>
 <p>@result?.RESPONSE?.RESULT?[0].Situation?.Length</p>
 
-<p>Nytt under</p>
-@if (result?.RESPONSE?.RESULT?[0].Situation?.Length > 0)
+<p>Nytt under</p>*@
+@*@if (result?.RESPONSE?.RESULT?[0].Situation?.Length > 0)
 {
 	@foreach (var situation in result.RESPONSE.RESULT[0].Situation)
 	{
@@ -54,12 +53,11 @@ else
 }
 
 @code {
-	private WeatherForecast[] forecasts;
 	private Rootobject result;
 
 	protected override async Task OnInitializedAsync()
 	{
-		forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+		//forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
 
 		//result = FetchAllSituations.FetchAllSituations();
 
@@ -68,3 +66,4 @@ else
 		//var newstring = result.RESPONSE.RESULT[0].INFO.SSEURL;
 	}
 }
+*@

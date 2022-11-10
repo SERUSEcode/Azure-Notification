@@ -33,5 +33,6 @@ namespace TestAppRazorMAUI.Data
         public string Message { get; set; }
         public string MessageCode { get; set; }
         public string MessageType { get; set; }
+        public DateTime CreationTime { get; set; }
     }
 }
