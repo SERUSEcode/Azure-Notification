@@ -9,23 +9,26 @@
 {
 	<table class="table">
 		<thead>
+			<p>Version: @result.RESPONSE.RESULT[0].INFO.LASTCHANGEID</p>
 			<tr>
 				<th>Id</th>
 				<th>Meddelande</th>
-				<th>Header</th>
 				<th>Type</th>
+				<th>Datum</th>
 			</tr>
 		</thead>
 		<tbody>
 			@foreach (var situation in result.RESPONSE.RESULT[0].Situation)
 			{
-				<tr>
-					<td>@situation.Deviation[0].IconId</td>
-					<td>@situation.Deviation[0].Message</td>
-					<td>@situation.Deviation[0].Header</td>
-					<td>@situation.Deviation[0].MessageCode</td>
-					<td>@situation.Deviation[0].CreationTime</td>
-				</tr>
+				@foreach (var deviation in situation.Deviation)
+				{
+					<tr>
+						<td>@deviation.IconId</td>
+						<td>@deviation.Message</td>
+						<td>@deviation.MessageCode</td>
+						<td>@deviation.CreationTime</td>
+					</tr>
+				}
 			}
 		</tbody>
 	</table>

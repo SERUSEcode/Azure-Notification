@@ -40,22 +40,33 @@ namespace TestAppRazorMAUI.Data
             }
         }
 
+        //Create the body of the request. inc sorts and filter the results
         private string CreateRequestQuery(string authenticationkey)
         {
-            //if (result == null) { }
-            var request = "<REQUEST>" +
-                              $"<LOGIN authenticationkey = \"{authenticationkey}\" />" +
-							   "<QUERY objecttype = \"Situation\" schemaversion = \"1.2\" orderby = \"Deviation.CreationTime desc\">" +
-                                    "<INCLUDE> Deviation.Header </INCLUDE>" +
-                                    "<INCLUDE> Deviation.IconId </INCLUDE>" +
-                                    "<INCLUDE> Deviation.Message </INCLUDE>" +
-                                    "<INCLUDE> Deviation.MessageCode </INCLUDE>" +
-                                    "<INCLUDE> Deviation.MessageType </INCLUDE>" +
-									"<INCLUDE> Deviation.CreationTime </INCLUDE>" +
-							  "</QUERY> " +
-                        "</REQUEST> ";
-            return request;
-        }
+
+            var changeid = "0";
+
+   //         if (result?.RESPONSE?.RESULT?[0].INFO?.LASTCHANGEID != null)
+   //         {
+			//	changeid = result.RESPONSE.RESULT[0].INFO.LASTCHANGEID;
+			//}
+
+            if (result?.RESPONSE?.RESULT?[0].Situation?.Length == 0 || result?.RESPONSE?.RESULT?[0] == null) 
+            { 
+                var request = "<REQUEST>" +
+                                  $"<LOGIN authenticationkey = \"{authenticationkey}\" />" +
+							      $"<QUERY objecttype = \"Situation\" schemaversion = \"1.2\" orderby = \"Deviation.CreationTime desc\" changeid=\"{changeid}\">" +
+                                        "<INCLUDE> Deviation.IconId </INCLUDE>" +
+                                        "<INCLUDE> Deviation.Message </INCLUDE>" +
+                                        "<INCLUDE> Deviation.MessageCode </INCLUDE>" +
+                                        "<INCLUDE> Deviation.MessageType </INCLUDE>" +
+									    "<INCLUDE> Deviation.CreationTime </INCLUDE>" +
+							      "</QUERY> " +
+                            "</REQUEST> ";
+                return request;
+			}
+            return "";
+		}
 
     }
     
