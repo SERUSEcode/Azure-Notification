@@ -12,6 +12,7 @@ namespace TestAppRazorMAUI.Data
 		private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
         private static string authenticationkey = "15c39950faf747ea86962f09867e2114";
 
+        //Get all suituations (get body -> send request -> gets data -> save data)
         public Rootobject FetchAllSituations()
         {
             string requestquery = CreateRequestQuery(authenticationkey);
@@ -19,11 +20,10 @@ namespace TestAppRazorMAUI.Data
 			
 			var result = JsonConvert.DeserializeObject<Rootobject>(responsestring);
 
-            
             return result;
         }
 
-
+        //Send the request to the API
         public string SendRequest(string url, string requestquery)
         {
             using (var client = new HttpClient())
@@ -43,13 +43,7 @@ namespace TestAppRazorMAUI.Data
         //Create the body of the request. inc sorts and filter the results
         private string CreateRequestQuery(string authenticationkey)
         {
-
             var changeid = "0";
-
-   //         if (result?.RESPONSE?.RESULT?[0].INFO?.LASTCHANGEID != null)
-   //         {
-			//	changeid = result.RESPONSE.RESULT[0].INFO.LASTCHANGEID;
-			//}
 
             if (result?.RESPONSE?.RESULT?[0].Situation?.Length == 0 || result?.RESPONSE?.RESULT?[0] == null) 
             { 
@@ -67,9 +61,7 @@ namespace TestAppRazorMAUI.Data
 			}
             return "";
 		}
-
     }
-    
 }
 
 

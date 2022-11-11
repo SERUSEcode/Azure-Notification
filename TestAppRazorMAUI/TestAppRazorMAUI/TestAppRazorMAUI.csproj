@@ -16,7 +16,7 @@
         <ApplicationTitle>TestAppRazorMAUI</ApplicationTitle>
 
         <!-- App Identifier -->
-        <ApplicationId>com.companyname.testapprazormaui</ApplicationId>
+        <ApplicationId>com.ucsmindbite.kevinsapp</ApplicationId>
         <ApplicationIdGuid>438EE043-44E5-443D-A6CB-F8653104A86F</ApplicationIdGuid>
 
         <!-- Versions -->
@@ -29,12 +29,13 @@
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
         <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+        <ProvisioningType>manual</ProvisioningType>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(TargetFramework)'=='net6.0-ios'">
       <ProvisioningType>automatic</ProvisioningType>
       <CodesignKey>Apple Development: Created via API (46QL34U57L)</CodesignKey>
-      <CodesignProvision>VS: WildCard Development</CodesignProvision>
+      <CodesignProvision>VS: com.ucsmindbite.kevinsapp Development</CodesignProvision>
     </PropertyGroup>
 
     <ItemGroup>
@@ -56,6 +57,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.Azure.NotificationHubs" Version="4.1.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     </ItemGroup>
 
