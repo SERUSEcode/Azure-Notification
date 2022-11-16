@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Eoqe9+ZKJbjxja13mJZjrsdTLI41rLj6unDZ2UmkUAc=",
+  "Source": "ServerSideAPI",
+  "BasePath": "_content/ServerSideAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

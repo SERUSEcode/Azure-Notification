@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repo\\Praktik\\test\\ApiPushClient\\ApiPushClient.csproj": {}
+    "C:\\Repo\\Praktik\\ApiONotisTest\\test\\ApiPushClient\\ApiPushClient.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\Praktik\\test\\ApiPushClient\\ApiPushClient.csproj": {
+    "C:\\Repo\\Praktik\\ApiONotisTest\\test\\ApiPushClient\\ApiPushClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\Praktik\\test\\ApiPushClient\\ApiPushClient.csproj",
+        "projectUniqueName": "C:\\Repo\\Praktik\\ApiONotisTest\\test\\ApiPushClient\\ApiPushClient.csproj",
         "projectName": "ApiPushClient",
-        "projectPath": "C:\\Repo\\Praktik\\test\\ApiPushClient\\ApiPushClient.csproj",
+        "projectPath": "C:\\Repo\\Praktik\\ApiONotisTest\\test\\ApiPushClient\\ApiPushClient.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\Praktik\\test\\ApiPushClient\\obj\\",
+        "outputPath": "C:\\Repo\\Praktik\\ApiONotisTest\\test\\ApiPushClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

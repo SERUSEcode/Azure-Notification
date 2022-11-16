@@ -24573,11 +24573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\Praktik\\TestProjectMAUI\\TestProjectMAUI\\TestProjectMAUI.csproj",
+      "projectUniqueName": "C:\\Repo\\Praktik\\ApiONotisTest\\TestProjectMAUI\\TestProjectMAUI\\TestProjectMAUI.csproj",
       "projectName": "TestProjectMAUI",
-      "projectPath": "C:\\Repo\\Praktik\\TestProjectMAUI\\TestProjectMAUI\\TestProjectMAUI.csproj",
+      "projectPath": "C:\\Repo\\Praktik\\ApiONotisTest\\TestProjectMAUI\\TestProjectMAUI\\TestProjectMAUI.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Repo\\Praktik\\TestProjectMAUI\\TestProjectMAUI\\obj\\",
+      "outputPath": "C:\\Repo\\Praktik\\ApiONotisTest\\TestProjectMAUI\\TestProjectMAUI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
