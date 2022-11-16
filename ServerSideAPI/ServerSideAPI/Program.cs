@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 using ServerSideAPI;
 using ServerSideAPI.Model;
 
@@ -6,15 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.Services.AddScoped<FetchSituations>();
-//builder.Services.AddSingleton<FetchSituations>();
-//builder.Services.AddHostedService(
-//    provider => provider.GetRequiredService<FetchSituations>());
-//builder.Services.AddHostedService<FetchSituations>();
+//builder.Services.AddScoped<IUpdateIdRepository, DbUpdateIdRepository>();
+builder.Services.AddDbContext<IntraRaddningstjanstDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefualtConnection")));
 builder.Services.AddHostedService<PeriodicHostedService>();
+
 
 var app = builder.Build();
 

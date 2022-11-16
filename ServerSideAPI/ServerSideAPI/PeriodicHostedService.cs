@@ -2,15 +2,26 @@
 using ServerSideAPI.Model;
 using System.Net.Http.Headers;
 using System.Text;
+using Microsoft.AspNetCore.Session;
+using Microsoft.AspNetCore.Http;
 
 namespace ServerSideAPI
 {
     public class PeriodicHostedService : BackgroundService
     {
-        private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(10000));
-        private Rootobject? result;
+		//private IResponseRepository _ResponseRepository;
+		//public PeriodicHostedService(IResponseRepository responseRepository)
+		//{
+		//	this._ResponseRepository = responseRepository;
+		//}
+
+		private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(50000));
+        //private Rootobject? result;
         private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
         private static string authenticationkey = "15c39950faf747ea86962f09867e2114";
+        public static string Key = "0";
+
+        
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
@@ -23,12 +34,53 @@ namespace ServerSideAPI
 
         private async Task DoWorkAsync()
         {
-            string requestquery = CreateRequestQuery(authenticationkey);
+			string requestquery = CreateRequestQuery(authenticationkey);
             string responsestring = SendRequest(apiurl, requestquery);
 
             var result = JsonConvert.DeserializeObject<Rootobject>(responsestring);
 
-            
+            Key = result.RESPONSE.RESULT[0].INFO.LASTCHANGEID;
+
+            Console.WriteLine(Key);
+
+			//using (var db = new IntraRaddningstjanstDbContext())
+			//{
+   //             foreach (var item in db.SituationTb)
+   //             {
+			//		db.SituationTb.Remove(item);
+			//	}
+                
+			//	db.SaveChanges();
+			//}
+
+			foreach (var situation in result.RESPONSE.RESULT[0].Situation)
+            {
+                foreach (var deviation in situation.Deviation)
+                {
+                    
+                    var Situations = new SituationTb()
+                    {
+                        Id = deviation.Id,
+                        IconId= deviation.IconId,
+                        CreationTime= deviation.CreationTime
+                    };
+
+                    try
+                    {
+						using (var db = new IntraRaddningstjanstDbContext())
+						{
+							db.Add(Situations);
+							db.SaveChanges();
+						}
+					} catch(Exception ex)
+                    {
+
+                    }
+                    
+
+                }
+
+            }
 
         }
 
@@ -51,17 +103,18 @@ namespace ServerSideAPI
         //Create the body of the request. inc sorts and filter the results
         private string CreateRequestQuery(string authenticationkey)
         {
-            var changeid = "0";
+            var changeid = 0;
 
-                var request = "<REQUEST>" +
+			var request = "<REQUEST>" +
                                   $"<LOGIN authenticationkey = \"{authenticationkey}\" />" +
-                                  $"<QUERY objecttype = \"Situation\" schemaversion = \"1.2\" orderby = \"Deviation.CreationTime desc\" changeid=\"{changeid}\">" +
+                                  $"<QUERY objecttype = \"Situation\" schemaversion = \"1.2\" orderby = \"Deviation.CreationTime desc\" changeid=\"{Key}\">" +
                                         "<INCLUDE> Deviation.IconId </INCLUDE>" +
                                         "<INCLUDE> Deviation.Message </INCLUDE>" +
                                         "<INCLUDE> Deviation.MessageCode </INCLUDE>" +
                                         "<INCLUDE> Deviation.MessageType </INCLUDE>" +
                                         "<INCLUDE> Deviation.CreationTime </INCLUDE>" +
-                                  "</QUERY> " +
+										"<INCLUDE> Deviation.Id </INCLUDE>" +
+								  "</QUERY> " +
                             "</REQUEST> ";
                 return request;
         }
