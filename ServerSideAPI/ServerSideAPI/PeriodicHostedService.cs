@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using ServerSideAPI.Model;
+using ServerSideAPI.Model.SituationTb;
 using System.Net.Http.Headers;
 using System.Text;
 using Microsoft.AspNetCore.Session;
@@ -41,19 +42,22 @@ namespace ServerSideAPI
 
             Key = result.RESPONSE.RESULT[0].INFO.LASTCHANGEID;
 
-            Console.WriteLine(Key);
+            if(Key == "0")
+            {
+				using (var db = new IntraRaddningstjanstDbContext())
+				{
+					foreach (var item in db.SituationTb)
+					{
+						db.SituationTb.Remove(item);
+					}
 
-			//using (var db = new IntraRaddningstjanstDbContext())
-			//{
-   //             foreach (var item in db.SituationTb)
-   //             {
-			//		db.SituationTb.Remove(item);
-			//	}
-                
-			//	db.SaveChanges();
-			//}
+					db.SaveChanges();
+				}
+			}
 
-			foreach (var situation in result.RESPONSE.RESULT[0].Situation)
+            
+
+            foreach (var situation in result.RESPONSE.RESULT[0].Situation)
             {
                 foreach (var deviation in situation.Deviation)
                 {
@@ -76,7 +80,6 @@ namespace ServerSideAPI
                     {
 
                     }
-                    
 
                 }
 

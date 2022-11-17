@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ServerSideAPI.Model;
+namespace ServerSideAPI.Model.SituationTb;
 
 public partial class SituationTb
 {

@@ -8,23 +8,23 @@ public partial class IntraRaddningstjanstDbContext : DbContext
 {
     public IntraRaddningstjanstDbContext()
     {
-    }
+		this.Database.EnsureCreated();
+	}
 
     public IntraRaddningstjanstDbContext(DbContextOptions<IntraRaddningstjanstDbContext> options)
         : base(options)
     {
     }
 
-    public virtual DbSet<SituationTb> SituationTb { get; set; }
+    public DbSet<SituationTb.SituationTb> SituationTb { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=IntraRaddningstjanstDb;Trusted_Connection=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<SituationTb>(entity =>
+        modelBuilder.Entity<SituationTb.SituationTb>(entity =>
         {
             entity.ToTable("SituationTb");
 
