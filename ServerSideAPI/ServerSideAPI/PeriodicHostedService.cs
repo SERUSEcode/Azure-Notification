@@ -16,7 +16,7 @@ namespace ServerSideAPI
 		//	this._ResponseRepository = responseRepository;
 		//}
 
-		private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(50000));
+		private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(5000));
         //private Rootobject? result;
         private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
         private static string authenticationkey = "15c39950faf747ea86962f09867e2114";

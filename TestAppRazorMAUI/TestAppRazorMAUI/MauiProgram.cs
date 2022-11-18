@@ -19,9 +19,9 @@ public static class MauiProgram
 		#if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-		
-        builder.Services.AddSingleton<FetchSituations>();
 
-        return builder.Build();
+		builder.Services.AddSingleton<FetchSituations>();
+
+		return builder.Build();
 	}
 }

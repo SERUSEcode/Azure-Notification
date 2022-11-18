@@ -12,14 +12,11 @@ namespace ServerSideAPI.Model.SituationTb
 			_dbContext = dbContext;
 		}
 
-		public IEnumerable<SituationTb> AllSituationTb => _dbContext.SituationTb;
+		public IEnumerable<SituationTb> AllSituationTb => _dbContext.SituationTb.OrderByDescending(i => i.CreationTime).Take(20);
 
-		public SituationTb GetSituationByAmount(int amount)
-		{
-			IEnumerable<string> test =
-				_dbContext.SituationTb.OrderByDescending(i => i.CreationTime).Take(amount).LastOrDefault();
-
-			return test;
-		}
+		//public SituationTb GetSituationByAmount(int amount)
+		//{
+		//	return _dbContext.SituationTb.OrderByDescending(i => i.CreationTime).Take(20).ToList();
+		//}
 	}
 }

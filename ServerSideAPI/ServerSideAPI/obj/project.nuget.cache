@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c3PeA4Sf36gyMlINrdjheiSaCklIwOG3v+kNIZ6U4YuI9wHU3dOowShYn/iRPfA0EQT38XWSaBW0ghjLGU1WKA==",
+  "dgSpecHash": "pYXqloPa8Bl9riDbqBWBq9fW6UriKE2ZQ+PcoQNMaQlEHm9Sq4Hlv39I0cOX7HMjQEGfj21EcsriqW70iWMHzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj",
+  "projectFilePath": "C:\\Repo\\Praktik\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

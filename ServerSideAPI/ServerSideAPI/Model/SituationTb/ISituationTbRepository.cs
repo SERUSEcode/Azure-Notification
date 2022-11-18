@@ -6,6 +6,6 @@ namespace ServerSideAPI.Model.SituationTb
 	{
 		public IEnumerable<SituationTb> AllSituationTb { get; }
 
-		SituationTb GetSituationByAmount(int amount);
+		//SituationTb GetSituationByAmount(int amount);
 	}
 }

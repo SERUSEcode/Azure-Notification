@@ -17,25 +17,30 @@ namespace ServerSideAPI.Controllers
 		}
 
 		[HttpGet]
-		public IEnumerable<SituationTb> GetSituations()
+		public IActionResult GetSituations()
 		{
-			var AllSituations = _SituationTbRepository.AllSituationTb;
 
-			return AllSituations;
-		}
-
-		[HttpGet("{amount}")]
-		public IActionResult GetSituationByAmount(int amount)
-		{
 			try
 			{
-				var Situation = _SituationTbRepository.GetSituationByAmount(amount);
-				return Ok(Situation);
-			}
+                var AllSituations = _SituationTbRepository.AllSituationTb;
+
+				return Ok(AllSituations);
+
+            }
 			catch
 			{
-				return StatusCode(500, "Internal server error");
-			}
+                return StatusCode(500, "Internal server error");
+            }
+			;
 		}
+
+		//[HttpGet("{amount}")]
+		//public IEnumerable<SituationTb> GetSituationByAmount(int amount)
+		//{
+		//	var SelectedAmountOfSituations = _SituationTbRepository.GetSituationByAmount(amount);
+
+		//	return SelectedAmountOfSituations;
+
+  //      }
 	}
 }

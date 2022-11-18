@@ -5,44 +5,14 @@
 @page "/"
 
 
-@if (result?.RESPONSE?.RESULT?[0].Situation?.Length > 0)
-{
-	<table class="table">
-		<thead>
-			<p>Version: @result.RESPONSE.RESULT[0].INFO.LASTCHANGEID</p>
-			<tr>
-				<th>Id</th>
-				<th>Meddelande</th>
-				<th>Type</th>
-				<th>Datum</th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach (var situation in result.RESPONSE.RESULT[0].Situation)
-			{
-				@foreach (var deviation in situation.Deviation)
-				{
-					<tr>
-						<td>@deviation.IconId</td>
-						<td>@deviation.Message</td>
-						<td>@deviation.MessageCode</td>
-						<td>@deviation.CreationTime</td>
-					</tr>
-				}
-			}
-		</tbody>
-	</table>
-}
-else
-{
-	<p>Inga situationer hittades</p>
-}
+<table>
+</table>
 
 @code {
-	private Rootobject result;
+	private IEnumerable<Situation> result;
 
 	protected override async Task OnInitializedAsync()
 	{
-		result = FetchAllSituations.FetchAllSituations();
+		result = await FetchAllSituations.FetchAllSituations();
 	}
 }
