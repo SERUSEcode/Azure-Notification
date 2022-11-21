@@ -3,16 +3,54 @@
 @inject FetchSituations FetchAllSituations
 
 @page "/"
+@try
+{
+	@if (result.Count() > 0)
+	{
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Meddelande</th>
+					<th>Type</th>
+					<th>Datum</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var situation in result)
+				{
+					<tr>
+						<td>@situation.IconId</td>
+						<td>@situation.Message</td>
+						<td>@situation.MessageCode</td>
+						<td>@situation.CreationTime</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	}
+	else
+	{
+		<p>Laddar</p>
+	}
+} catch (Exception ex)
+{
+
+}
 
 
-<table>
-</table>
 
 @code {
-	private IEnumerable<Situation> result;
+	private IEnumerable<Situation> result { get; set; }
 
 	protected override async Task OnInitializedAsync()
 	{
+		await GetResult();
+	}
+
+	private async Task<IEnumerable<Situation>> GetResult()
+	{
 		result = await FetchAllSituations.FetchAllSituations();
+		return result;
 	}
 }

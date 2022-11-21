@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-18T12:34:10.526</Modified>
+      <Modified>2022-11-21T13:14:11.655</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-18T12:34:10.118</Modified>
+      <Modified>2022-11-21T13:14:11.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TestAppRazorMAUI.runtimeconfig.json">
       <PackagePath>TestAppRazorMAUI.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-18T12:34:10.055</Modified>
+      <Modified>2022-11-21T13:14:10.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\TestAppRazorMAUI.dll">
       <PackagePath>TestAppRazorMAUI.dll</PackagePath>
-      <Modified>2022-11-18T12:33:02.185</Modified>
+      <Modified>2022-11-21T13:14:09.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TestAppRazorMAUI.exe</PackagePath>
-      <Modified>2022-11-18T12:33:02.214</Modified>
+      <Modified>2022-11-21T13:14:09.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kevin\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1148,7 +1148,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\TestAppRazorMAUI.deps.json">
       <PackagePath>TestAppRazorMAUI.deps.json</PackagePath>
-      <Modified>2022-11-18T12:34:10.368</Modified>
+      <Modified>2022-11-21T13:14:11.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1164,247 +1164,247 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2022-11-07T12:09:31.847</Modified>
+      <Modified>2022-11-21T12:58:35.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\TestAppRazorMAUI.styles.css">
       <PackagePath>wwwroot\TestAppRazorMAUI.styles.css</PackagePath>
-      <Modified>2022-11-18T12:32:52.242</Modified>
+      <Modified>2022-11-21T12:58:40.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\TestAppRazorMAUI.bundle.scp.css">
       <PackagePath>wwwroot\TestAppRazorMAUI.bundle.scp.css</PackagePath>
-      <Modified>2022-11-18T12:32:52.243</Modified>
+      <Modified>2022-11-21T12:58:40.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2022-11-07T12:09:31.536</Modified>
+      <Modified>2022-11-21T12:58:40.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
-      <Modified>2022-11-07T12:09:31.552</Modified>
+      <Modified>2022-11-21T12:58:40.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
-      <Modified>2022-11-07T12:09:31.577</Modified>
+      <Modified>2022-11-21T12:58:40.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
       <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
-      <Modified>2022-11-07T12:09:31.645</Modified>
+      <Modified>2022-11-21T12:58:40.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.eot</PackagePath>
-      <Modified>2022-11-07T12:09:31.728</Modified>
+      <Modified>2022-11-21T12:58:40.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.otf</PackagePath>
-      <Modified>2022-11-07T12:09:31.771</Modified>
+      <Modified>2022-11-21T12:58:40.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.svg</PackagePath>
-      <Modified>2022-11-07T12:09:31.775</Modified>
+      <Modified>2022-11-21T12:58:40.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.ttf</PackagePath>
-      <Modified>2022-11-07T12:09:31.798</Modified>
+      <Modified>2022-11-21T12:58:40.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
-      <Modified>2022-11-07T12:09:31.812</Modified>
+      <Modified>2022-11-21T12:58:40.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\FONT-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
-      <Modified>2022-11-07T12:09:31.590</Modified>
+      <Modified>2022-11-21T12:58:40.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\ICON-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
-      <Modified>2022-11-07T12:09:31.593</Modified>
+      <Modified>2022-11-21T12:58:40.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\css\open-iconic\README.md">
       <PackagePath>wwwroot\css\open-iconic\README.md</PackagePath>
-      <Modified>2022-11-07T12:09:31.629</Modified>
+      <Modified>2022-11-21T12:58:40.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\favicon.ico">
       <PackagePath>wwwroot\favicon.ico</PackagePath>
-      <Modified>2022-11-07T12:09:31.858</Modified>
+      <Modified>2022-11-21T12:58:40.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2022-11-07T12:09:31.861</Modified>
+      <Modified>2022-11-21T12:58:40.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:00.979</Modified>
+      <Modified>2022-11-21T13:14:08.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:00.996</Modified>
+      <Modified>2022-11-21T13:14:08.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.018</Modified>
+      <Modified>2022-11-21T13:14:08.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.064</Modified>
+      <Modified>2022-11-21T13:14:08.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.245</Modified>
+      <Modified>2022-11-21T13:14:08.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2022-11-07T12:09:31.845</Modified>
+      <Modified>2022-11-21T12:58:35.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-11-18T12:33:01.315</Modified>
+      <Modified>2022-11-21T13:14:08.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.567</Modified>
+      <Modified>2022-11-21T13:14:09.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.582</Modified>
+      <Modified>2022-11-21T13:14:09.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.592</Modified>
+      <Modified>2022-11-21T13:14:09.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.610</Modified>
+      <Modified>2022-11-21T13:14:09.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.686</Modified>
+      <Modified>2022-11-21T13:14:09.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.329</Modified>
+      <Modified>2022-11-21T13:14:08.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.333</Modified>
+      <Modified>2022-11-21T13:14:08.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.342</Modified>
+      <Modified>2022-11-21T13:14:08.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.346</Modified>
+      <Modified>2022-11-21T13:14:08.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.356</Modified>
+      <Modified>2022-11-21T13:14:08.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.430</Modified>
+      <Modified>2022-11-21T13:14:08.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.437</Modified>
+      <Modified>2022-11-21T13:14:08.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.453</Modified>
+      <Modified>2022-11-21T13:14:08.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.465</Modified>
+      <Modified>2022-11-21T13:14:08.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.484</Modified>
+      <Modified>2022-11-21T13:14:08.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.393</Modified>
+      <Modified>2022-11-21T13:14:08.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.398</Modified>
+      <Modified>2022-11-21T13:14:08.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.404</Modified>
+      <Modified>2022-11-21T13:14:08.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.411</Modified>
+      <Modified>2022-11-21T13:14:08.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.422</Modified>
+      <Modified>2022-11-21T13:14:08.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.363</Modified>
+      <Modified>2022-11-21T13:14:08.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.370</Modified>
+      <Modified>2022-11-21T13:14:08.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.376</Modified>
+      <Modified>2022-11-21T13:14:08.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.382</Modified>
+      <Modified>2022-11-21T13:14:08.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.389</Modified>
+      <Modified>2022-11-21T13:14:08.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.490</Modified>
+      <Modified>2022-11-21T13:14:08.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.499</Modified>
+      <Modified>2022-11-21T13:14:08.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.512</Modified>
+      <Modified>2022-11-21T13:14:08.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.524</Modified>
+      <Modified>2022-11-21T13:14:09.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.558</Modified>
+      <Modified>2022-11-21T13:14:09.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.386</Modified>
+      <Modified>2022-11-21T13:14:08.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.398</Modified>
+      <Modified>2022-11-21T13:14:08.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.417</Modified>
+      <Modified>2022-11-21T13:14:08.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.454</Modified>
+      <Modified>2022-11-21T13:14:08.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-11-18T12:33:01.512</Modified>
+      <Modified>2022-11-21T13:14:08.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
-      <Modified>2022-11-07T12:09:31.851</Modified>
+      <Modified>2022-11-21T12:58:35.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\Shared\NavMenu.razor.css">
       <PackagePath>Shared\NavMenu.razor.css</PackagePath>
-      <Modified>2022-11-07T12:09:31.853</Modified>
+      <Modified>2022-11-21T12:58:35.277</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
