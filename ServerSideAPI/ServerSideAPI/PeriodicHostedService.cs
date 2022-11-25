@@ -5,24 +5,16 @@ using System.Net.Http.Headers;
 using System.Text;
 using Microsoft.AspNetCore.Session;
 using Microsoft.AspNetCore.Http;
+using Xamarin.Essentials;
 
 namespace ServerSideAPI
 {
     public class PeriodicHostedService : BackgroundService
     {
-		//private IResponseRepository _ResponseRepository;
-		//public PeriodicHostedService(IResponseRepository responseRepository)
-		//{
-		//	this._ResponseRepository = responseRepository;
-		//}
-
-		private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(5000));
-        //private Rootobject? result;
+		private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(500));
         private static string apiurl = "https://api.trafikinfo.trafikverket.se/v2/data.json";
         private static string authenticationkey = "15c39950faf747ea86962f09867e2114";
         public static string Key = "0";
-
-        
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
@@ -42,7 +34,22 @@ namespace ServerSideAPI
 
             Key = result.RESPONSE.RESULT[0].INFO.LASTCHANGEID;
 
-            if(Key == "0")
+			try
+			{
+				WebAuthenticatorResult authResult = await WebAuthenticator.Default.AuthenticateAsync(
+					new Uri("https://mysite.com/mobileauth/Microsoft"),
+					new Uri("myapp://"));
+
+				string accessToken = authResult?.AccessToken;
+
+				// Do something with the token
+			}
+			catch (TaskCanceledException e)
+			{
+				// Use stopped auth
+			}
+
+			if (Key == "0")
             {
 				using (var db = new IntraRaddningstjanstDbContext())
 				{
@@ -55,8 +62,6 @@ namespace ServerSideAPI
 				}
 			}
 
-            
-
             foreach (var situation in result.RESPONSE.RESULT[0].Situation)
             {
                 foreach (var deviation in situation.Deviation)
@@ -66,8 +71,11 @@ namespace ServerSideAPI
                     {
                         Id = deviation.Id,
                         IconId= deviation.IconId,
-                        CreationTime= deviation.CreationTime
-                    };
+						Message= deviation.Message,
+                        MessageCode= deviation.MessageCode,
+                        MessageType= deviation.MessageType,
+						CreationTime = deviation.CreationTime
+	                };
 
                     try
                     {

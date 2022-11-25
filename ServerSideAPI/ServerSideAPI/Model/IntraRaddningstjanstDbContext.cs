@@ -8,22 +8,35 @@ public partial class IntraRaddningstjanstDbContext : DbContext
 {
     public IntraRaddningstjanstDbContext()
     {
-		this.Database.EnsureCreated();
-	}
+    }
 
     public IntraRaddningstjanstDbContext(DbContextOptions<IntraRaddningstjanstDbContext> options)
         : base(options)
     {
     }
 
-    public DbSet<SituationTb.SituationTb> SituationTb { get; set; }
+    public virtual DbSet<Message.Message> Message { get; set; }
 
+    public virtual DbSet<SituationTb.SituationTb> SituationTb { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=IntraRaddningstjanstDb;Trusted_Connection=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb; Database=IntraRaddningstjanstDb;Trusted_Connection=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Message.Message>(entity =>
+        {
+            entity.ToTable("Message");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.CreationTime).HasColumnType("datetime");
+            entity.Property(e => e.MessageText).HasColumnType("text");
+            entity.Property(e => e.MessageType).HasColumnType("text");
+            entity.Property(e => e.SituationId).HasColumnType("text");
+            entity.Property(e => e.UserId).HasColumnType("text");
+        });
+
         modelBuilder.Entity<SituationTb.SituationTb>(entity =>
         {
             entity.ToTable("SituationTb");

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2sP+uAViYwbOZk/IbnZCKHfL6Y5ujzDBf4jV+nhO7k8=",
+  "Hash": "1LvRt7aiSo/3L48i7XPsNKAd5T8dzRtZL551K5+i0jA=",
   "Source": "TestAppRazorMAUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "TestAppRazorMAUI\\wwwroot",
       "Source": "TestAppRazorMAUI",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\TestAppRazorMAUI.styles.css",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\TestAppRazorMAUI.styles.css",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "TestAppRazorMAUI.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\TestAppRazorMAUI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\TestAppRazorMAUI.styles.css"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\TestAppRazorMAUI.bundle.scp.css",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\TestAppRazorMAUI.bundle.scp.css",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "TestAppRazorMAUI.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\TestAppRazorMAUI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\TestAppRazorMAUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\app.css",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\favicon.ico",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\index.html",
       "SourceId": "TestAppRazorMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repo\\Praktik\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\TestAppRazorMAUI\\TestAppRazorMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

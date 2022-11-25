@@ -3,38 +3,48 @@ using System;
 using System.Net.Http.Headers;
 using System.Text;
 using Newtonsoft.Json;
+using TestAppRazorMAUI.Global;
 
 namespace TestAppRazorMAUI.Data
 {
     public class FetchSituations
     {
-        //private static string UrlAdress = "https://localhost:7045/api/Situation";
-        //Get all suituations (get body -> send request -> gets data -> save data)
         public async Task<IEnumerable<Situation>> FetchAllSituations()
         {
-
-            //using (var client = new HttpClient())
-            //{
-
-            //var url = $"https://localhost:7045/api/Situation/";
             var responseContent = default(string);
+            var APIadress = Adress.APILocalhost;
 
-            HttpClient client = new();
-            //client.BaseAddress = new Uri(url);
+			try
+			{
+				WebAuthenticatorResult authResult = await WebAuthenticator.Default.AuthenticateAsync(
+					new Uri("https://mysite.com/mobileauth/Microsoft"),
+					new Uri(Adress.CurrentPage));
+
+				string accessToken = authResult?.AccessToken;
+
+				// Do something with the token
+			}
+			catch (TaskCanceledException e)
+			{
+				// Use stopped auth
+			}
+
+			HttpClient client = new();
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
             IEnumerable<Situation> test = null;
 
-            try
+			
+
+			try
             {
-                HttpResponseMessage response = await client.GetAsync("http://172.16.23.26:7045/api/Situation");
+                HttpResponseMessage response = await client.GetAsync(APIadress);
                 responseContent = await response.Content.ReadAsStringAsync();
 
                 if (response.IsSuccessStatusCode)
                 {
                     test = JsonConvert.DeserializeObject<IEnumerable<Situation>>(responseContent);
-                    //Situation situation = await response.Content.ReadAsStringAsync<Situation>();
                 }
 
                 return test;
@@ -44,39 +54,8 @@ namespace TestAppRazorMAUI.Data
             }
 
             return null;
-            
-            //client.BaseAddress = newUrl(UrlAdress);
-            //client.DefaultRequestHeaders.Accept.Clear();
-            //client.Timeout = TimeSpan.FromMinutes(1);
-            //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            //HttpResponseMessage response = awaitclient.GetAsync("api/Department/1");
-
-            //var response = client.GetAsync(UrlAdress).Result;
-            //var resultstring = response.Content.ReadAsStringAsync().Result;
-            //var result = JsonConvert.DeserializeObject<Situation>(resultstring);
-
-            //return result;
 
         }
-
-
-
-        //Send the request to the API
-  //      public string SendRequest(string url, string requestquery)
-  //      {
-  //          using (var client = new HttpClient())
-  //          {
-                
-  //          }
-  //      }
-
-  //      //Create the body of the request. inc sorts and filter the results
-  //      private string CreateRequestQuery(string authenticationkey)
-  //      {
-
-  //          return "";
-		//}
     }
 }
 

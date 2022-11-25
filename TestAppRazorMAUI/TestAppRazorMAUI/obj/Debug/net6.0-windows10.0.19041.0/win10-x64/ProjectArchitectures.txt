@@ -1,1 +1,1 @@
-C:\Repo\Praktik\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\TestAppRazorMAUI.csproj;x64
+C:\Users\kevin\Documents\repos\Job\ApiONotisTest\TestAppRazorMAUI\TestAppRazorMAUI\TestAppRazorMAUI.csproj;x64

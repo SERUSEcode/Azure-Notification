@@ -41,8 +41,10 @@ public class AppDelegate : MauiUIApplicationDelegate
                 };
 
 
+				
 
-                var connectionString = "Endpoint=sb://Trafikverket.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=rAHMLL2O9YFo1WMbmT5TRZJRNY5TF61vqNdoCf2MDZo=";
+
+				var connectionString = "Endpoint=sb://Trafikverket.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=rAHMLL2O9YFo1WMbmT5TRZJRNY5TF61vqNdoCf2MDZo=";
                 var hubClient = NotificationHubClient.CreateClientFromConnectionString(connectionString, "Trafikverket");
                 await hubClient.CreateOrUpdateInstallationAsync(install);
             }

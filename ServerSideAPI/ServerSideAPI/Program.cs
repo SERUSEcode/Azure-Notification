@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using ServerSideAPI;
 using ServerSideAPI.Model;
+using ServerSideAPI.Model.Message;
 using ServerSideAPI.Model.SituationTb;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<IntraRaddningstjanstDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefualtConnection")));
 builder.Services.AddScoped<ISituationTbRepository, DbSituationTbRepository>();
-//builder.Services.AddHostedService<PeriodicHostedService>();
+builder.Services.AddScoped<IMessageRepository, DbMessageRepository>();
+builder.Services.AddHostedService<PeriodicHostedService>();
 
 
 var app = builder.Build();

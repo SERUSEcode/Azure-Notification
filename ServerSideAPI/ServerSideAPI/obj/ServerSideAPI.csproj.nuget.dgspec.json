@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repo\\Praktik\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj": {}
+    "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\Praktik\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj": {
+    "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\Praktik\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj",
         "projectName": "ServerSideAPI",
-        "projectPath": "C:\\Repo\\Praktik\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj",
+        "projectPath": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\ServerSideAPI.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\Praktik\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Documents\\repos\\Job\\ApiONotisTest\\ServerSideAPI\\ServerSideAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,6 +76,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.7.3.2, )"
             }
           },
           "imports": [
@@ -97,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
