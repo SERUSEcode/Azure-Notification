@@ -8,13 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "ServerSideAPI/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "6.0.0",
           "Microsoft.AspNetCore.Session": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Xamarin.Essentials": "1.7.3",
+          "Xamarin.Essentials.Interfaces": "1.7.3.2"
         },
         "runtime": {
           "ServerSideAPI.dll": {}
@@ -59,6 +63,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
           }
         }
       },
@@ -276,6 +288,12 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
           }
+        }
+      },
+      "Microsoft.Extensions.Configuration/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
@@ -829,6 +847,25 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "Xamarin.Essentials/1.7.3": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Essentials.Interfaces/1.7.3.2": {
+        "runtime": {
+          "lib/net6.0/Essential.Interfaces.dll": {
+            "assemblyVersion": "1.7.3.2",
+            "fileVersion": "1.7.3.2"
+          }
+        }
       }
     }
   },
@@ -858,6 +895,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RR39ZVeXlOTGF9omTnbc4eU30+ou5g8F8H4l4xMtUh5jZowoPL9M6vFc6MgfCWg3n1UW9RvzdgsrO7kq4uMCuA==",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
       "type": "package",
@@ -1012,6 +1056,13 @@
       "sha512": "sha512-xpidBs2KCE2gw1JrD0quHE72kvCaI3xFql5/Peb2GRtUuZX+dYPoK/NTdVMiM67Svym0M0Df9A3xyU0FbMQhHw==",
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+      "path": "microsoft.extensions.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "type": "package",
@@ -1446,6 +1497,20 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
+      "path": "xamarin.essentials/1.7.3",
+      "hashPath": "xamarin.essentials.1.7.3.nupkg.sha512"
+    },
+    "Xamarin.Essentials.Interfaces/1.7.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jcArB+Fi5TqYSe2jBp22nvCDHDTiOJKCsdFUuyphBeKFbLJ5CQsPKIUeeHk/p4j0NVK3LKKTLK22HMs1BwHeDg==",
+      "path": "xamarin.essentials.interfaces/1.7.3.2",
+      "hashPath": "xamarin.essentials.interfaces.1.7.3.2.nupkg.sha512"
     }
   }
 }

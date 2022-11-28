@@ -34,20 +34,7 @@ namespace ServerSideAPI
 
             Key = result.RESPONSE.RESULT[0].INFO.LASTCHANGEID;
 
-			try
-			{
-				WebAuthenticatorResult authResult = await WebAuthenticator.Default.AuthenticateAsync(
-					new Uri("https://mysite.com/mobileauth/Microsoft"),
-					new Uri("myapp://"));
-
-				string accessToken = authResult?.AccessToken;
-
-				// Do something with the token
-			}
-			catch (TaskCanceledException e)
-			{
-				// Use stopped auth
-			}
+			
 
 			if (Key == "0")
             {
