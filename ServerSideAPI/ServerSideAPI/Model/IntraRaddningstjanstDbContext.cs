@@ -29,7 +29,9 @@ public partial class IntraRaddningstjanstDbContext : DbContext
         {
             entity.ToTable("Message");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.CreationTime).HasColumnType("datetime");
             entity.Property(e => e.MessageText).HasColumnType("text");
             entity.Property(e => e.MessageType).HasColumnType("text");

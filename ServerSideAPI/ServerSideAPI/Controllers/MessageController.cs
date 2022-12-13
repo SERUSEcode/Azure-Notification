@@ -5,6 +5,7 @@ using ServerSideAPI.Model.SituationTb;
 using System.Data;
 using System;
 using ServerSideAPI.Model;
+using Microsoft.SqlServer.Server;
 
 namespace ServerSideAPI.Controllers
 {
@@ -19,14 +20,14 @@ namespace ServerSideAPI.Controllers
 		}
 
 		[HttpGet]
-		public IActionResult GetSituations()
+		public IActionResult GetAllMessages()
 		{
 
 			try
 			{
-				var AllSituations = _MessageRepository.AllMessages;
+				var AllMessages = _MessageRepository.AllMessages;
 
-				return Ok(AllSituations);
+				return Ok(AllMessages);
 			}
 			catch
 			{
@@ -34,15 +35,50 @@ namespace ServerSideAPI.Controllers
 			}
 		}
 
+		[HttpGet("{SituationId}")]
+		public IActionResult GetMessageBySituationId(string SituationId)
+		{
+
+			try
+			{
+				var message = _MessageRepository.GetMessageBySituationId(SituationId);
+				return Ok(message);
+			}
+			catch
+			{
+				return StatusCode(500, "Internal server error");
+			}
+		}
+
+		//[HttpGet]
+		//public IActionResult AllMessagesWithSituationId()
+		//{
+
+		//	try
+		//	{
+		//		var message = _MessageRepository.AllMessagesWithSituationId;
+		//		return Ok(message);
+		//	}
+		//	catch
+		//	{
+		//		return StatusCode(500, "Internal server error");
+		//	}
+		//}
+
+
 		[HttpPost]
 		[ActionName("/Add")]
 		public IActionResult AddFilm(string userId, string situationId, string messageText)
 		{
+			var guidString = System.Guid.NewGuid().ToString();
+
 			var message = new Message()
 			{
+				Id = guidString,
 				UserId = userId,
 				SituationId = situationId,
-				MessageText = messageText
+				MessageText = messageText,
+				CreationTime= DateTime.Now,
 			};
 
 			using (var db = new IntraRaddningstjanstDbContext())

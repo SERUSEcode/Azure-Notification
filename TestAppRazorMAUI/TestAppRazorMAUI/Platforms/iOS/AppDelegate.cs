@@ -18,7 +18,6 @@ public class AppDelegate : MauiUIApplicationDelegate
 
 		});
 		return base.FinishedLaunching(application, launchOptions);
-
 	}
 
     [Export("application:didRegisterForRemoteNotificationsWithDeviceToken:")]
@@ -30,8 +29,6 @@ public class AppDelegate : MauiUIApplicationDelegate
             {
                 var deviceTokenString = BitConverter.ToString(deviceToken.ToArray()).Replace("-", "");
 
-
-
                 var install = new Installation
                 {
                     Platform = NotificationPlatform.Apns,
@@ -39,10 +36,6 @@ public class AppDelegate : MauiUIApplicationDelegate
                     ExpirationTime = DateTime.UtcNow.AddYears(1),
                     InstallationId = deviceTokenString,
                 };
-
-
-				
-
 
 				var connectionString = "Endpoint=sb://Trafikverket.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=rAHMLL2O9YFo1WMbmT5TRZJRNY5TF61vqNdoCf2MDZo=";
                 var hubClient = NotificationHubClient.CreateClientFromConnectionString(connectionString, "Trafikverket");
@@ -54,15 +47,11 @@ public class AppDelegate : MauiUIApplicationDelegate
         });
     }
 
-
-
     [Export("application:didFailToRegisterForRemoteNotificationsWithError:")]
     public void FailedToRegisterForRemoteNotifications(UIApplication application, NSError error)
     {
         Console.WriteLine($"EVENT!!! FailedToRegisterForRemoteNotifications {error.Code} {error.Description}");
     }
-
-
 
     [Export("application:didReceiveRemoteNotification:fetchCompletionHandler:")]
     public void DidReceiveRemoteNotification(UIApplication application, NSDictionary userInfo, Action<UIBackgroundFetchResult> completionHandler)

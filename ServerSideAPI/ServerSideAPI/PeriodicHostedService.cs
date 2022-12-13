@@ -61,6 +61,7 @@ namespace ServerSideAPI
 						Message= deviation.Message,
                         MessageCode= deviation.MessageCode,
                         MessageType= deviation.MessageType,
+                        Arkiverad= false,
 						CreationTime = deviation.CreationTime
 	                };
 

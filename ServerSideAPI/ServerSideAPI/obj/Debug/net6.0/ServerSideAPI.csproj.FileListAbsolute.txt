@@ -172,3 +172,6 @@ C:\Repo\Praktik\ApiONotisTest\ServerSideAPI\ServerSideAPI\obj\Debug\net6.0\refin
 C:\Repo\Praktik\ApiONotisTest\ServerSideAPI\ServerSideAPI\obj\Debug\net6.0\ServerSideAPI.pdb
 C:\Repo\Praktik\ApiONotisTest\ServerSideAPI\ServerSideAPI\obj\Debug\net6.0\ServerSideAPI.genruntimeconfig.cache
 C:\Repo\Praktik\ApiONotisTest\ServerSideAPI\ServerSideAPI\obj\Debug\net6.0\ref\ServerSideAPI.dll
+C:\Users\kevin\Documents\repos\Job\ApiONotisTest\ServerSideAPI\ServerSideAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\kevin\Documents\repos\Job\ApiONotisTest\ServerSideAPI\ServerSideAPI\bin\Debug\net6.0\Xamarin.Essentials.dll
+C:\Users\kevin\Documents\repos\Job\ApiONotisTest\ServerSideAPI\ServerSideAPI\bin\Debug\net6.0\Essential.Interfaces.dll

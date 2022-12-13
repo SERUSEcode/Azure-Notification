@@ -29,9 +29,11 @@ builder.Services.AddAuthentication(o =>
 .AddCookie()
 .AddFacebook(facebookOptions =>
 {
-    //facebookOptions.AppId = builder.Configuration["Authentication:Facebook:AppId"];
-    //facebookOptions.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
-    facebookOptions.AppId = "5993682193976683";
+	//facebookOptions.AppId = builder.Configuration["Authentication:Facebook:AppId"];
+	//facebookOptions.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
+	IConfigurationSection FBAuthNSection =
+	   builder.Configuration.GetSection("Authentication:FB");
+	facebookOptions.AppId = "5993682193976683";
     facebookOptions.AppSecret = "ed37dd48d17ebaddb4e29c7c1d87ee77";
     facebookOptions.SaveTokens = true;
 });

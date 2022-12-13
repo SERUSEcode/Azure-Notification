@@ -15,5 +15,7 @@ public partial class SituationTb
 
     public string? MessageType { get; set; }
 
+    public Boolean? Arkiverad { get; set; }
+
     public DateTime? CreationTime { get; set; }
 }

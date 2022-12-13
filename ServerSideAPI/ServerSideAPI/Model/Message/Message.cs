@@ -5,7 +5,7 @@ namespace ServerSideAPI.Model.Message;
 
 public partial class Message
 {
-    public int Id { get; set; }
+    public string Id { get; set; }
 
 	public string? SituationId { get; set; }
 
